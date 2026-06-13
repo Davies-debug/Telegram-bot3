@@ -75,7 +75,7 @@ async def main():
         while True:
             print("Envoi des messages...")
             await send_messages(client)
-            print("Attente de 35 minutes...")
+            print("Attente de 17 minutes...")
             await asyncio.sleep(35 * 60)
 
 asyncio.run(main())
